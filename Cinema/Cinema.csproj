@@ -60,6 +60,8 @@
     <Compile Include="Helper\ReflectionClass.cs" />
     <Compile Include="Helper\SqlHelper.cs" />
     <Compile Include="PropertyClass\CijenaPropertyClass.cs" />
+    <Compile Include="PropertyClass\RacunPropertyClass.cs" />
+    <Compile Include="PropertyClass\SalaPropertyClass.cs" />
     <Compile Include="PropertyClass\FilmPropertyClass.cs" />
     <Compile Include="PropertyClass\KartaPropertyClass.cs" />
     <Compile Include="PropertyInterface.cs" />
