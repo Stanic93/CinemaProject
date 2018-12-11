@@ -33,7 +33,7 @@ namespace Cinema.PropertyClass
                 racunID = value;
             }
         }
-        [PrimaryKey]
+        
         [SqlName("VrijemeIzdavanja")]
         [DisplayName("Vrijeme izdavanja")]
         public DateTime VrijemeIzdavanja
@@ -47,7 +47,7 @@ namespace Cinema.PropertyClass
                 vrijemeIzdavanja = value;
             }
         }
-        [PrimaryKey]
+        
         [SqlName("ZaposleniID")]
         [DisplayName("Zaposleni ID")]
         public short ZaposleniID
@@ -61,7 +61,7 @@ namespace Cinema.PropertyClass
                 zaposleniID = value;
             }
         }
-        [PrimaryKey]
+       
         [SqlName("UkupnaCijena")]
         [DisplayName("Ukupna cijena")]
         public decimal UkupnaCijena
