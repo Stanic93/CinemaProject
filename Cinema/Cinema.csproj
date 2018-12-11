@@ -60,6 +60,8 @@
     <Compile Include="Helper\ReflectionClass.cs" />
     <Compile Include="Helper\SqlHelper.cs" />
     <Compile Include="PropertyClass\CijenaPropertyClass.cs" />
+    <Compile Include="PropertyClass\FilmPropertyClass.cs" />
+    <Compile Include="PropertyClass\KartaPropertyClass.cs" />
     <Compile Include="PropertyInterface.cs" />
     <EmbeddedResource Include="Forme\StancardnaForm.resx">
       <DependentUpon>StancardnaForm.cs</DependentUpon>
