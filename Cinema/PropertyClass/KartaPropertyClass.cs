@@ -73,7 +73,7 @@ namespace Cinema.PropertyClass
         [DisplayName("Vrijeme izdavanja")]
         public DateTime VrijemeIzdavanja
         {
- .           get
+            get
             {
                 return vrijemeIzdavanja;
             }
@@ -133,7 +133,7 @@ namespace Cinema.PropertyClass
                         VrijemeIzdavanja = @VrijemeIzdavanja,
                         SjedisteID = @SjedisteID,
                         RacunID = @RacunID
-                        where KartaID = @KartaID"; +
+                        where KartaID = @KartaID"; 
 
 
         }

@@ -130,7 +130,7 @@ namespace Cinema.PropertyClass
                         DuzinaTrajanja = @DuzinaTrajanja,
                         Opis = @Opis,
                         Reziser = @Reziser,                        
-                        where FilmID = @FilmID"
+                        where FilmID = @FilmID";
         }
         #endregion
 
