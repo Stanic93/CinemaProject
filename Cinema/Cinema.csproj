@@ -62,9 +62,11 @@
     <Compile Include="PropertyClass\CijenaPropertyClass.cs" />
     <Compile Include="PropertyClass\ProjekcijaPropertyClass.cs" />
     <Compile Include="PropertyClass\RacunPropertyClass.cs" />
+    <Compile Include="PropertyClass\RezervacijaPropertyClass.cs" />
     <Compile Include="PropertyClass\SalaPropertyClass.cs" />
     <Compile Include="PropertyClass\FilmPropertyClass.cs" />
     <Compile Include="PropertyClass\KartaPropertyClass.cs" />
+    <Compile Include="PropertyClass\SjedistePropertyClass.cs" />
     <Compile Include="PropertyInterface.cs" />
     <EmbeddedResource Include="Forme\StancardnaForm.resx">
       <DependentUpon>StancardnaForm.cs</DependentUpon>
