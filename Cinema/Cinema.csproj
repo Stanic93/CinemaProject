@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttributeClass\PrimaryKeyAttribute.cs" />
+    <Compile Include="AttributeClass\SqlNameAttribute.cs" />
     <Compile Include="Helper\DataReaderToDataSource.cs" />
     <Compile Include="Forme\StancardnaForm.cs">
       <SubType>Form</SubType>
