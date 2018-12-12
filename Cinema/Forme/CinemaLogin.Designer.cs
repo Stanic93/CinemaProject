@@ -41,6 +41,7 @@
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.bunifuGradientPanel2.SuspendLayout();
@@ -127,7 +128,7 @@
             // bunifuFlatButton1
             // 
             this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.Red;
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton1.BorderRadius = 0;
             this.bunifuFlatButton1.ButtonText = "bunifuFlatButton1";
@@ -196,11 +197,21 @@
             this.bunifuDragControl1.TargetControl = this.bunifuGradientPanel2;
             this.bunifuDragControl1.Vertical = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(362, 45);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(147, 48);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Nikola";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // CinemaLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(613, 348);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bunifuGradientPanel2);
             this.Controls.Add(this.bunifuFlatButton1);
             this.Controls.Add(this.bunifuTextbox2);
@@ -233,5 +244,6 @@
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private System.Windows.Forms.Button button1;
     }
 }
