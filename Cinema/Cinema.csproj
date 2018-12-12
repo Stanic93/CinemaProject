@@ -33,7 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3 %281%29">
+      <HintPath>..\..\Bunifu_UI_v1.5.3 (1).dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,6 +53,12 @@
   <ItemGroup>
     <Compile Include="AttributeClass\PrimaryKeyAttribute.cs" />
     <Compile Include="AttributeClass\SqlNameAttribute.cs" />
+    <Compile Include="Forme\CinemaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\CinemaLogin.Designer.cs">
+      <DependentUpon>CinemaLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helper\DataReaderToDataSource.cs" />
     <Compile Include="Forme\StancardnaForm.cs">
       <SubType>Form</SubType>
@@ -68,6 +79,9 @@
     <Compile Include="PropertyClass\KartaPropertyClass.cs" />
     <Compile Include="PropertyClass\SjedistePropertyClass.cs" />
     <Compile Include="PropertyInterface.cs" />
+    <EmbeddedResource Include="Forme\CinemaLogin.resx">
+      <DependentUpon>CinemaLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forme\StancardnaForm.resx">
       <DependentUpon>StancardnaForm.cs</DependentUpon>
     </EmbeddedResource>

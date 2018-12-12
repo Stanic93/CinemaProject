@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cinema.Forme;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Cinema
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StancardnaForm());
+            Application.Run(new CinemaLogin());
         }
     }
 }
