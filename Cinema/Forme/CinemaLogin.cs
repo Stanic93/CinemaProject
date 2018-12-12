@@ -16,5 +16,16 @@ namespace Cinema.Forme
         {
             InitializeComponent();
         }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            bunifuFlatButton1.Text = "AAAA";
+            bunifuFlatButton1.BackColor = Color.Aqua;
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

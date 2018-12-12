@@ -58,7 +58,7 @@ namespace Cinema.PropertyClass
 
         [SqlName("ProjekcijaID")]
         [DisplayName("Projekcija ID")]
-        [ForeignKey]
+      
         public short ProjekcijaID
         {
             get
