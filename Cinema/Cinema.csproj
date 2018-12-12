@@ -34,6 +34,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,14 +48,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttributeClass\ForeignKeyAttribute.cs" />
     <Compile Include="AttributeClass\PrimaryKeyAttribute.cs" />
     <Compile Include="AttributeClass\SqlNameAttribute.cs" />
     <Compile Include="Helper\DataReaderToDataSource.cs" />
-    <Compile Include="Forme\StancardnaForm.cs">
+    <Compile Include="Forme\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forme\StancardnaForm.Designer.cs">
-      <DependentUpon>StancardnaForm.cs</DependentUpon>
+    <Compile Include="Forme\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -68,8 +71,8 @@
     <Compile Include="PropertyClass\KartaPropertyClass.cs" />
     <Compile Include="PropertyClass\SjedistePropertyClass.cs" />
     <Compile Include="PropertyInterface.cs" />
-    <EmbeddedResource Include="Forme\StancardnaForm.resx">
-      <DependentUpon>StancardnaForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forme\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
