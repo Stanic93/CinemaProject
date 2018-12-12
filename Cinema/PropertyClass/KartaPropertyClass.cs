@@ -42,6 +42,7 @@ namespace Cinema.PropertyClass
 
         [SqlName("ZaposleniID")]
         [DisplayName("Zaposleni ID")]
+        [ForeignKey("dbo.Zaposleni","ZaposleniID","Cinema.PropertyClass.KartaPropertyClass")]
         public short ZaposleniID
         {
             get
@@ -57,6 +58,7 @@ namespace Cinema.PropertyClass
 
         [SqlName("ProjekcijaID")]
         [DisplayName("Projekcija ID")]
+        [ForeignKey]
         public short ProjekcijaID
         {
             get
