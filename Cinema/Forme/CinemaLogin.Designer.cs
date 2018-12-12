@@ -42,6 +42,7 @@
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.button1 = new System.Windows.Forms.Button();
+            this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.bunifuGradientPanel2.SuspendLayout();
@@ -57,6 +58,7 @@
             // 
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
             this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel1.Controls.Add(this.bunifuFlatButton2);
             this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.White;
@@ -197,15 +199,6 @@
             this.bunifuDragControl1.TargetControl = this.bunifuGradientPanel2;
             this.bunifuDragControl1.Vertical = true;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(362, 45);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 48);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Nikola";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // CinemaLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -244,6 +237,5 @@
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
-        private System.Windows.Forms.Button button1;
     }
 }
