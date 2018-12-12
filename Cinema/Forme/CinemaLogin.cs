@@ -15,9 +15,6 @@ namespace Cinema.Forme
         public CinemaLogin()
         {
             InitializeComponent();
-            this.BackColor = Color.Red;
         }
-
-        
     }
 }

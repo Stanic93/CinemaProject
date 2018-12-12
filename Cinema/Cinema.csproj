@@ -80,9 +80,6 @@
     <Compile Include="PropertyClass\KartaPropertyClass.cs" />
     <Compile Include="PropertyClass\SjedistePropertyClass.cs" />
     <Compile Include="PropertyInterface.cs" />
-    <EmbeddedResource Include="Forme\CinemaLogin.resx">
-      <DependentUpon>CinemaLogin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forme\StancardnaForm.resx">
       <DependentUpon>StancardnaForm.cs</DependentUpon>
     </EmbeddedResource>
