@@ -71,6 +71,7 @@
     <Compile Include="Helper\ReflectionClass.cs" />
     <Compile Include="Helper\SqlHelper.cs" />
     <Compile Include="PropertyClass\CijenaPropertyClass.cs" />
+    <Compile Include="PropertyClass\LoginPropertyClass.cs" />
     <Compile Include="PropertyClass\ProjekcijaPropertyClass.cs" />
     <Compile Include="PropertyClass\RacunPropertyClass.cs" />
     <Compile Include="PropertyClass\RezervacijaPropertyClass.cs" />
