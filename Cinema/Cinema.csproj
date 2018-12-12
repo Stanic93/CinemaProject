@@ -86,8 +86,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\StancardnaForm.resx">
       <DependentUpon>StancardnaForm.cs</DependentUpon>
-    <EmbeddedResource Include="Forme\LoginForm.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
